@@ -26,6 +26,9 @@ public class Main {
             System.out.println("На ноль делить нельзя");
         }
 
+        int e = calc.devide.apply(5,0);
+        calc.println.accept(e);
+
         int pow = calc.pow.apply(-12);
         calc.println.accept(pow);
 
